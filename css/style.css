@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#landing-content {
+    display: flex;
+    flex-direction:column;
+    background: url(museum.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(38, 38, 38, 0.89);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo img{
+    width: 240px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #dee0e2;
+}
+#landing-btn a {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #dee0e2;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #D98228;
+    padding: .8em 4.5em;
+    border-radius: 12px;
+}
+
+/*
+#landing-welcome,
+#landing-btn {
+    margin: auto;
+}
+
+#logo {
+    width: 100%;
+    position: relative;
+}
+#logo img {
+    position: absolute;
+    width: 200px;
+    
+}
+
+#landing-btn {
+    
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.logo img {
+    max-height: 200px;
+    max-width: 200px;
+    display: flex;
+    margin: auto;
+}*/
